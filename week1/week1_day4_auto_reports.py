@@ -2,11 +2,12 @@ import pandas as pd
 from sqlalchemy import create_engine
 import os
 
+
 # -------------------------------
 # 1. Connect to database
 # -------------------------------
 engine = create_engine("sqlite:///sales_db.sqlite")
-print("✅ Connected to SQLite")
+print("[OK] Connected to SQLite")
 
 # -------------------------------
 # 2. Define SQL queries
@@ -47,4 +48,4 @@ for name, query in queries.items():
     excel_path = f"reports/{name}.xlsx"
     df.to_excel(excel_path, index=False)
     
-    print(f"✅ Saved {name} report -> {csv_path}, {excel_path}")
+    print(f"[OK] Saved {name} report -> {csv_path}, {excel_path}")
