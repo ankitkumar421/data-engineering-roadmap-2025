@@ -1,40 +1,80 @@
-# Data Engineering Roadmap 2025 🚀
+This repository documents my step-by-step Data Engineering learning journey for 2025.
+I’m learning week by week, pushing code here, and sharing my progress publicly on LinkedIn.
 
-This repo documents my step-by-step journey to become a Data Engineer, starting with **Week 1: ETL Pipelines with Python, SQLite, and Automation**.
+✅ Progress Checklist
 
----
+ Week 1: Python ETL Foundations
 
-## 📅 Week 1 Deliverables
+ Pandas Basics
 
-### Day 1 — Pandas Basics
-- Explored data cleaning, transformations, and revenue calculations using pandas.
-- Notebook: [`week1_day1_pandas_basics.ipynb`](week1/week1_day1_pandas_basics.ipynb)
+ ETL Pipeline → SQLite
 
-### Day 2 — Build ETL Pipeline
-- Extracted raw CSV, transformed data (cleaning, typecasting), loaded into SQLite.
-- Script: [`week1_day2_etl_pipeline.py`](week1/week1_day2_etl_pipeline.py)
+ Query SQLite
 
-### Day 3 — SQL Queries
-- Queried SQLite with SQL for:
-  - Total Revenue
-  - Top Customers
-  - Monthly Revenue
-- Notebook: [`week1_day3_sql_queries.ipynb`](week1/week1_day3_sql_queries.ipynb)
+ Auto Reports (Excel/CSV)
 
-### Day 4 — Automated Reports
-- Python script to run SQL queries and save results to CSV & Excel.
-- Script: [`week1_day4_auto_reports.py`](week1/week1_day4_auto_reports.py)
-- Reports saved in [`week1/reports/`](week1/reports/)
+ Task Scheduler Automation
 
-### Day 5 — Scheduling
-- Added batch file + Task Scheduler job to run pipeline daily.
-- File: [`run_reports.bat`](run_reports.bat)
+ Week 2: PySpark Foundations
 
----
+ Spark Setup & Session
 
-## 🛠️ Setup Instructions
+ RDDs vs DataFrames
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/<your-username>/data-engineering-roadmap-2025.git
-   cd data-engineering-roadmap-2025
+ Transformations & Actions
+
+ Spark SQL Queries
+
+ Joins & Aggregations
+
+ Window Functions
+
+ Week 3: Advanced PySpark
+
+ UDFs (User Defined Functions)
+
+ Partitioning & Bucketing
+
+ Performance Optimizations
+
+ Caching & Persistence
+
+ File Formats (Parquet, ORC, JSON)
+
+ Mini Project: Optimized ETL pipeline
+
+📂 Repository Structure
+data-engineering-roadmap-2025/
+│
+├── data/                   # Sample datasets (sales.csv, customers.csv, etc.)
+├── week1/                  # Week 1 notebooks & scripts
+├── week2/                  # Week 2 notebooks & scripts
+├── requirements.txt        # Dependencies
+└── README.md               # This file
+
+🛠️ Tech Stack
+
+Python 3.11 → Data pipelines
+
+Pandas → Data wrangling
+
+SQLite → Lightweight DB
+
+PySpark → Distributed big data processing
+
+Docker → Environment setup & reproducibility
+
+🌍 Learning in Public
+
+I’m documenting my journey on LinkedIn after each day/week.
+👉 Follow my updates here: LinkedIn
+
+🔜 Next Steps
+
+Continue with Week 3: Advanced PySpark
+
+Explore Cloud Data Engineering (Azure/GCP)
+
+Build real-world mini projects & pipelines
+
+✨ This repo is my public accountability tracker and a resource for anyone starting in Data Engineering.
