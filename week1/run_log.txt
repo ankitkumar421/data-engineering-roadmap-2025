@@ -1,0 +1,4 @@
+[OK] Connected to SQLite
+[OK] Saved total_revenue report -> reports/total_revenue.csv, reports/total_revenue.xlsx
+[OK] Saved top_customers report -> reports/top_customers.csv, reports/top_customers.xlsx
+[OK] Saved monthly_revenue report -> reports/monthly_revenue.csv, reports/monthly_revenue.xlsx

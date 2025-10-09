@@ -1,0 +1,52 @@
+2025-10-09 08:11:23,073 - INFO - ✅ Spark session created successfully
+2025-10-09 08:11:23,074 - INFO - 📥 Extracting data from CSV
+2025-10-09 08:11:33,498 - INFO - Extracted 10 rows from data/sales.csv
+2025-10-09 08:11:33,499 - INFO - 🔄 Transforming data
+2025-10-09 08:11:34,896 - INFO - Transformed dataset with 7 customer records
+2025-10-09 08:11:34,897 - INFO - 💾 Loading data into Parquet
+2025-10-09 08:11:38,107 - INFO - Data successfully saved to week4/output/customer_revenue.parquet
+2025-10-09 08:11:38,108 - INFO - 🎯 ETL pipeline completed successfully!
+2025-10-09 08:11:38,361 - INFO - 🛑 Spark session stopped.
+2025-10-09 08:14:55,206 - INFO - ✅ Spark session created successfully
+2025-10-09 08:14:55,207 - INFO - 📥 Extracting data from CSV
+2025-10-09 08:14:56,354 - INFO - Extracted 10 rows from data/sales.csv
+2025-10-09 08:14:56,357 - INFO - 🔄 Transforming data
+2025-10-09 08:14:57,146 - INFO - Transformed dataset with 7 customer records
+2025-10-09 08:14:57,147 - INFO - 💾 Loading data into Parquet
+2025-10-09 08:14:58,685 - INFO - Data successfully saved to week4/output/customer_revenue.parquet
+2025-10-09 08:14:58,686 - INFO - 🎯 ETL pipeline completed successfully!
+2025-10-09 08:14:59,035 - INFO - 🛑 Spark session stopped.
+2025-10-09 08:15:28,715 - INFO - ✅ Spark session created successfully
+2025-10-09 08:15:28,716 - INFO - 📥 Extracting data from CSV
+2025-10-09 08:15:29,761 - INFO - Extracted 10 rows from data/sales.csv
+2025-10-09 08:15:29,762 - INFO - 🔄 Transforming data
+2025-10-09 08:15:30,725 - INFO - Transformed dataset with 7 customer records
+2025-10-09 08:15:30,727 - INFO - 💾 Loading data into Parquet
+2025-10-09 08:15:32,414 - INFO - Data successfully saved to week4/output/customer_revenue.parquet
+2025-10-09 08:15:32,414 - INFO - 🎯 ETL pipeline completed successfully!
+2025-10-09 08:15:32,683 - INFO - 🛑 Spark session stopped.
+2025-10-09 08:18:40,472 - INFO - Closing down clientserver connection
+2025-10-09 08:18:58,007 - INFO - Closing down clientserver connection
+2025-10-09 08:20:11,486 - INFO - Closing down clientserver connection
+2025-10-09 08:20:23,763 - INFO - Error while sending or receiving.
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [Errno 104] Connection reset by peer
+2025-10-09 08:20:23,765 - INFO - Closing down clientserver connection
+2025-10-09 08:20:23,765 - INFO - Exception while sending command.
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 506, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+2025-10-09 08:20:23,770 - INFO - Closing down clientserver connection
