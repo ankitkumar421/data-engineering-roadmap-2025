@@ -50,3 +50,5 @@ Traceback (most recent call last):
     raise Py4JNetworkError(
 py4j.protocol.Py4JNetworkError: Error while sending
 2025-10-09 08:20:23,770 - INFO - Closing down clientserver connection
+2025-10-09 10:52:32,444 - ERROR - No such comm target registered: jupyter.widget.control
+2025-10-09 10:52:32,497 - WARNING - No such comm: f43ec286-c7b7-4551-beb1-c2688f67433a
